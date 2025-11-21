@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Update Stock</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-dark">
+    <h2 class="text-white text-center mt-2">Update Stock - {{ product.name }}</h2>
+
+    <form method="POST" class="mt-5 ms-5">
+      {% csrf_token %}
+
+      <label class="text-white">Quantity:</label><br />
+      <input
+        type="number"
+        name="quantity"
+        value="{{ product.quantity }}"
+        required size=40/><br /><br />
+
+      <button type="submit" class="btn btn-success">Update</button>
+      <br /><br />
+      <a href="/" class="btn btn-primary">Back to Inventory</a>
+    </form>
+  </body>
+</html>
