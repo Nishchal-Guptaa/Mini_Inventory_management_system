@@ -2,4 +2,4 @@ django
 mysqlclient
 python-dotenv
 gunicorn
-'whitenoise[brotli]'
+whitenoise[brotli]
