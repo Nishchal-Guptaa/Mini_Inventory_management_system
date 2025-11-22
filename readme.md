@@ -109,27 +109,3 @@ python manage.py runserver
 ```
 
 ---
-
-## 🔑 Superuser
-```
-
-python manage.py createsuperuser
-
-```
-
----
-
-
-## 🛠 Deployment on Railway
-Add **.env variables** in **Variables** section:
-
-
-Start Command:
-```
-
-python manage.py migrate && gunicorn backend.wsgi
-
-```
-
----
-
