@@ -75,9 +75,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'inventory_project.wsgi.application'
 
+DB_Live = os.getenv('DB_LIVE')
+
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
