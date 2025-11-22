@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'inventory_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'inventory_db',
-        'USER': 'root',
-        'PASSWORD': os.getenv('mysql_password'),
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': os.getenv('MYSQL_DATABASE'),
+        'USER': os.getenv('MYSQLUSER'),
+        'PASSWORD': os.getenv('MYSQLPASSWORD'),
+        'HOST': os.getenv('MYSQLHOST'),
+        'PORT': os.getenv('MYSQLPORT'),
     }
 }
 
