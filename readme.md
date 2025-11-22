@@ -72,7 +72,7 @@ DB_LIVE=False
 
 git clone https://github.com/Nishchal-Guptaa/Mini_Inventory_management_system.git
 
-cd repository
+cd Mini_Inventory_management_system
 
 ```
 
