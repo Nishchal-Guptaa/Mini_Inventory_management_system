@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-48xm(59+fcl!1n1z%fniqk+eutl((3w)=(@39*ocec_ub30xvy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.railway.app']
 
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
