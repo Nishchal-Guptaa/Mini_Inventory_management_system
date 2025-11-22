@@ -70,7 +70,7 @@ DB_LIVE=False
 ### 1. Clone the Repository
 ```
 
-git clone [https://github.com/Nishchal-Guptaa/Mini_Inventory_management_system.git](https://github.com/Nishchal-Guptaa/Mini_Inventory_management_system.git)
+git clone ["https://github.com/Nishchal-Guptaa/Mini_Inventory_management_system.git"](https://github.com/Nishchal-Guptaa/Mini_Inventory_management_system.git)
 
 cd repository
 
